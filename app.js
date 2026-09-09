@@ -1,5 +1,5 @@
 // Change only this value before publishing.
-const CONTACT_EMAIL = "your-email@example.com";
+const CONTACT_EMAIL = "sadegh.amirzadeh@vaasantekniset.fi";
 
 const translations = {
   en: {
