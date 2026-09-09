@@ -2,40 +2,31 @@
 
 Static, bilingual (English/Finnish) website prepared for GitHub Pages.
 
-## Before publishing
+## Configuration
 
-1. Open `app.js`.
-2. Replace:
+- Contact email: `sadegh.amirzadeh@vaasantekniset.fi`
+- Production domain: `vaasantekniset.fi`
+- GitHub repository: `amirmojiry/vaasantekniset.fi`
 
-   ```js
-   const CONTACT_EMAIL = "your-email@example.com";
-   ```
-
-   with the actual email address.
-
-3. Review the service descriptions and legal/company wording before publication.
-4. Keep `CNAME` as `vaasatekniset.fi` if the root domain will be used.
+Review the service descriptions and legal/company wording before publication.
 
 ## GitHub Pages
 
-- Push these files to a repository.
 - Repository → Settings → Pages.
 - Deploy from the `main` branch, root folder (`/`).
-- Add custom domain `vaasatekniset.fi`.
+- Add custom domain `vaasantekniset.fi`.
 - Enable HTTPS once GitHub makes it available.
 
 ## DNS at Hostinger
 
-For the apex domain (`vaasatekniset.fi`) GitHub currently documents these A records:
+For the apex domain (`vaasantekniset.fi`) GitHub documents these A records:
 
 - `185.199.108.153`
 - `185.199.109.153`
 - `185.199.110.153`
 - `185.199.111.153`
 
-For `www`, use a CNAME pointing to `YOUR_GITHUB_USERNAME.github.io`.
-
-Replace `YOUR_GITHUB_USERNAME` with the account or organization hosting the Pages site.
+For `www`, use a CNAME pointing to `amirmojiry.github.io`.
 
 GitHub recommends configuring both the apex domain and `www`, and recommends domain verification for security.
 
